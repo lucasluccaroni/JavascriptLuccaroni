@@ -97,8 +97,17 @@ const auriculares = () => {
 
 
 
+// UTILIZAR UN BOTON PARA FINALIZAR COMPRA, ADEMAS DEL 0 PARA ESC.
+const carrito = (a, b,) => {
+    let sumarCarrito = a + b;
+    alert(`el precio final es ${sumarCarrito}`);
+    return sumarCarrito;
+}
+
+
+
 bienvenida();
 productos();
+carrito(precioMonLG, precioMonS);
 
 
-// UTILIZAR UN BOTON PARA FINALIZAR COMPRA, ADEMAS DEL 0 PARA ESC.
